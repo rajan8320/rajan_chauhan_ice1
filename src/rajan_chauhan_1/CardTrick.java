@@ -26,11 +26,8 @@ public class CardTrick {
         }
 
         Card luckyCard = new Card();
-
-        luckyCard.setValue(7);
-
-        Random luckyCardRandom = new Random();
-        luckyCard.setSuit(Card.SUITS[luckyCardRandom.nextInt(3)]); 
+        luckyCard.setValue(6);
+        luckyCard.setSuit("Hearts");
 
         magicHand[magicHand.length - 1] = luckyCard;    
 
